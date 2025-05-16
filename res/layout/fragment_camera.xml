@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.camera.view.PreviewView android:id="@id/pv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/iv_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <CheckBox android:textSize="12.0sp" android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/cb_light" android:background="@drawable/camera_light_selector" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="120.0dip" android:checked="false" android:button="@null" android:drawablePadding="15.0dip" />
+        <FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginBottom="15.0dip">
+            <TextView android:gravity="center" android:layout_gravity="start" android:id="@id/camera_tv_switch" android:background="@drawable/camera_ic_switch" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginStart="45.0dip" />
+            <ImageView android:layout_gravity="center" android:id="@id/camera_iv_take" android:background="@drawable/camera_ic_take" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_centerHorizontal="true" />
+            <ImageView android:layout_gravity="end" android:id="@id/camera_iv_picture" android:background="@drawable/camera_ic_picture" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginEnd="45.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

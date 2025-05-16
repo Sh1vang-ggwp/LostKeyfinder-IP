@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value="dem2o" />
+
+
+    <version value="6" />
+
+
+    <list>
+        <mapping class="com.lenzetech.isearchingtwo.Bean.MySetting"/>
+        <mapping class="com.lenzetech.isearchingtwo.Bean.MyBleItem" />
+        <mapping class="com.lenzetech.isearchingtwo.Bean.UserLocationInfo"/>
+    </list>
+
+
+
+
+</litepal>

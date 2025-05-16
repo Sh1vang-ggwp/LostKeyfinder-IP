@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/settingHead" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <Button android:id="@id/setting_back_btn" android:background="@drawable/back" android:layout_width="35.0dip" android:layout_height="20.0dip" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ble_setting_ring" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_weight="1.0" android:layout_below="@id/settingHead">
+        <RadioGroup android:id="@id/radioGroup_sex_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginStart="20.0dip">
+            <RadioButton android:id="@id/ring2" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ring_defalut" />
+            <TextView android:background="@color/bg_gary" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <RadioButton android:id="@id/ring1" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ring_100" />
+            <TextView android:background="@color/bg_gary" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <RadioButton android:id="@id/ring3" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ring_jinji" />
+            <TextView android:background="@color/bg_gary" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <RadioButton android:id="@id/ring4" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ring_bird" />
+            <TextView android:background="@color/bg_gary" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <RadioButton android:id="@id/ring5" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ring_warm" />
+            <TextView android:background="@color/bg_gary" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <RadioButton android:id="@id/ring6" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ring_moring" />
+            <TextView android:background="@color/bg_gary" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <RadioButton android:id="@id/ring7" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ring_dizi" />
+            <TextView android:background="@color/bg_gary" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <RadioButton android:id="@id/ring8" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ring_alarm" />
+            <TextView android:background="@color/bg_gary" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <RadioButton android:id="@id/ring9" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ring_ring" />
+            <TextView android:background="@color/bg_gary" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

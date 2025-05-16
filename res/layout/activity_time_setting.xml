@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_gary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/settingHead" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <Button android:id="@id/setting_back_btn" android:background="@drawable/back" android:layout_width="35.0dip" android:layout_height="20.0dip" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time_distr" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/startTimeRe" android:background="@drawable/textbg" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_margin="10.0dip" android:layout_below="@id/settingHead">
+        <TextView android:textSize="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/set_start_time" android:layout_marginStart="10.0dip" />
+        <TextView android:textSize="25.0dip" android:id="@id/startTinmeLable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开始时间:10:30" android:layout_centerInParent="true" />
+        <Button android:id="@id/startBtn" android:background="@drawable/btnbglayout" android:layout_width="120.0dip" android:layout_height="30.0dip" android:layout_marginBottom="10.0dip" android:text="@string/click_chang" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/endTimeRe" android:background="@drawable/textbg" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_margin="10.0dip" android:layout_below="@id/startTimeRe">
+        <TextView android:textSize="17.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/set_end_time" android:layout_marginStart="10.0dip" />
+        <TextView android:textSize="25.0dip" android:id="@id/endTimeLable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="结束:10:30" android:layout_centerInParent="true" />
+        <Button android:id="@id/endBtn" android:background="@drawable/btnbglayout" android:layout_width="120.0dip" android:layout_height="30.0dip" android:layout_marginBottom="10.0dip" android:text="@string/click_chang" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

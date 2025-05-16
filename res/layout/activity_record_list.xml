@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/settingHead" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <Button android:id="@id/setting_back_btn" android:background="@drawable/back" android:layout_width="35.0dip" android:layout_height="20.0dip" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recording" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/settingHeadtest" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/settingHead">
+        <Button android:id="@id/startBtn" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="开始录音" android:layout_alignParentStart="true" />
+        <Button android:id="@id/endBtn" android:layout_width="60.0dip" android:layout_height="60.0dip" android:text="结束录音" android:layout_alignParentStart="true" />
+    </LinearLayout>
+    <ListView android:id="@id/recListView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/settingHeadtest" />
+</RelativeLayout>

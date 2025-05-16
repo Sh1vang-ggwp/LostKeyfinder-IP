@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/devices"
+        android:id="@+id/navigation_home"
+        android:title="@string/device"/>
+    <item
+        android:icon="@drawable/camera"
+        android:id="@+id/navigation_camera"
+        android:title="@string/camera"/>
+    <item
+        android:icon="@drawable/map"
+        android:id="@+id/navigation_location"
+        android:title="@string/location"/>
+    <item
+        android:icon="@drawable/setting"
+        android:id="@+id/navigation_setting"
+        android:title="@string/setting"/>
+    <item
+        android:icon="@drawable/book"
+        android:id="@+id/navigation_setting_2"
+        android:title="@string/userpdf"/>
+</menu>

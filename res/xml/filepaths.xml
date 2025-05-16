@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <root-path name="output_image" path="" />
+        <external-path name="AudioRecord" path="AudioRecord" />
+    </paths>
+</resources>

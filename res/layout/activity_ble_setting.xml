@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_gary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/settingHead" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <Button android:id="@id/setting_back_btn" android:background="@drawable/back" android:layout_width="35.0dip" android:layout_height="20.0dip" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_setting" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="17.0sp" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/head_setting" android:layout_below="@id/settingHead" android:layout_marginStart="20.0dip" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/settingImageBtn" android:layout_width="fill_parent" android:layout_height="300.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/settingHead">
+        <View android:id="@id/view" android:background="@drawable/textbg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="40.0dip" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/imageBtn" android:background="@drawable/ic_bledevices" android:layout_width="180.0dip" android:layout_height="180.0dip" android:text="Button" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="17.0sp" android:id="@id/textViewonterhset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="@string/other_setting" android:layout_below="@id/settingImageBtn" android:layout_marginStart="20.0dip" android:layout_alignParentStart="true" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/nameSeting" android:background="@drawable/textbg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/textViewonterhset" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name_setting" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_alignParentStart="true" android:backgroundTint="@color/colorPrimary" android:thumbTint="@color/colorPrimary" />
+        <com.google.android.material.textfield.TextInputEditText android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textColorLink="@color/colorPrimary" android:id="@id/name_input_text" android:background="@drawable/bluetooth_name_change" android:layout_width="100.0dip" android:layout_height="30.0dip" android:text="iTAG" android:layout_alignParentBottom="false" android:layout_centerVertical="true" android:textAlignment="viewEnd" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/disconnSetting" android:background="@drawable/textbg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/nameSeting" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disconn_is_alram" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_alignParentStart="true" />
+        <Switch android:id="@id/disconnisalalrm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:thumb="@drawable/bluetooth_switch_thumb" android:layout_centerVertical="true" android:track="@drawable/bluetooth_switch_selector" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/ringblesetting" android:background="@drawable/textbg" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/disconnSetting" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ring_setting" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_alignParentStart="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/toringSetting" android:layout_width="35.0dip" android:layout_height="20.0dip" android:src="@drawable/go" android:layout_marginEnd="10.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:camera="http://schemas.android.com/apk/res-auto">
+    <com.jianjin.camera.widget.CameraPreview android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.jianjin.camera.widget.FocusImageView android:id="@id/iv_focus" android:layout_width="75.0dip" android:layout_height="75.0dip" camera:focus_fail_id="@drawable/focus_focus_failed" camera:focus_focusing_id="@drawable/focus_focusing" camera:focus_success_id="@drawable/focus_focused" />
+    <SeekBar android:id="@id/seek_zoom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="100.0dip" android:layout_alignParentBottom="true" />
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginTop="5.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/location_ble_img" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/ic_bledevices" android:layout_marginStart="10.0dip" android:layout_marginEnd="5.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:id="@id/location_ble_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="iTAG" android:layout_weight="1.0" />
+            <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="end|bottom|center" android:layout_gravity="end|bottom|center" android:id="@id/location_ble_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2018-09-21" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/textItemadd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="nihao" />
+</LinearLayout>

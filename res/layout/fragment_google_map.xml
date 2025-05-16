@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/locationTitle" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.google.android.gms.maps.MapView android:id="@id/googlemapview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/locationTitle" />
+        <FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="85.0dip">
+            <Button android:layout_gravity="end" android:id="@id/googletoCurrentLocation" android:background="@drawable/myloc" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginEnd="35.0dip" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/googlelocationHis" android:background="@drawable/textgraybg" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_marginBottom="10.0dip" android:text="@string/locaiton_history" android:layout_marginStart="70.0dip" android:layout_marginEnd="70.0dip" />
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>
